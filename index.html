@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Discover movie recaps and film explanations in Amharic from JAGISO ፊልሞች Recap.">
+  <title>JAGISO ፊልሞች Recap | Movie Stories, Explained</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="JAGISO home">
+      <img src="assets/logo.svg" alt="" width="44" height="44">
+      <span><strong>JAGISO</strong><small>ፊልሞች RECAP</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#library">Movie Library</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="subscribe-link" href="https://www.youtube.com/@jagisofilmochrecapamharic?sub_confirmation=1" target="_blank" rel="noopener">Subscribe <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="eyebrow-line"></span> STORIES BEYOND THE SCREEN</div>
+        <p class="amharic-mark">ጃጊሶ ፊልሞች</p>
+        <h1>Great movies.<br><em>Clearly explained.</em></h1>
+        <p class="hero-copy">Discover unforgettable stories, surprising twists, and cinematic worlds — recapped in Amharic for movie lovers everywhere.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#library"><span class="play-icon">▶</span> Explore the library</a>
+          <a class="button button-ghost" href="https://www.youtube.com/@jagisofilmochrecapamharic" target="_blank" rel="noopener">Visit YouTube ↗</a>
+        </div>
+        <div class="hero-proof"><span class="proof-dot"></span> MOVIE RECAPS · FILM EXPLANATIONS · AMHARIC</div>
+      </div>
+      <div class="hero-stamp" aria-hidden="true"><span>J</span><small>JFRA<br>RECAP</small></div>
+      <a class="scroll-cue" href="#library"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="library-section section-wrap" id="library">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT STORY STARTS HERE</p><h2>Explore the <em>library</em></h2></div>
+        <p class="section-note">Choose a genre, search a title, and find your next movie recap.</p>
+      </div>
+      <div class="library-tools">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search movie titles..." aria-label="Search movie titles"></label>
+        <div class="filter-list" id="filterList" aria-label="Filter movies by genre">
+          <button class="filter-chip active" data-filter="All">All stories</button>
+          <button class="filter-chip" data-filter="Thriller">Thriller</button>
+          <button class="filter-chip" data-filter="Drama">Drama</button>
+          <button class="filter-chip" data-filter="Romance">Romance</button>
+          <button class="filter-chip" data-filter="Horror">Horror</button>
+          <button class="filter-chip" data-filter="Sci-Fi">Sci-Fi</button>
+        </div>
+      </div>
+      <div class="results-line"><span id="resultCount">6 stories</span><span>CURATED FOR MOVIE LOVERS</span></div>
+      <div class="movie-grid" id="movieGrid">
+        <article class="movie-card" data-title="The Guest" data-genre="Thriller" data-year="2014" data-video="">
+          <button class="poster poster-guest" data-open-movie aria-label="Open The Guest movie details"><span class="poster-shade"></span><span class="poster-tag">THRILLER</span><span class="poster-art guest-art"><i></i><b></b></span><span class="poster-title">THE<br>GUEST</span><span class="poster-bottom">EVERY FAMILY HAS SECRETS</span><span class="poster-play">▶</span></button>
+          <div class="movie-meta"><div><h3>The Guest</h3><p>2014 <span>•</span> Thriller</p></div><button class="icon-button" data-open-movie aria-label="View The Guest details">↗</button></div>
+        </article>
+        <article class="movie-card" data-title="Gifted" data-genre="Drama" data-year="2017" data-video="">
+          <button class="poster poster-gifted" data-open-movie aria-label="Open Gifted movie details"><span class="poster-shade"></span><span class="poster-tag">DRAMA</span><span class="poster-art gifted-art"><i></i><b></b></span><span class="poster-title">GIFTED</span><span class="poster-bottom">SOME THINGS ARE WORTH MORE</span><span class="poster-play">▶</span></button>
+          <div class="movie-meta"><div><h3>Gifted</h3><p>2017 <span>•</span> Drama</p></div><button class="icon-button" data-open-movie aria-label="View Gifted details">↗</button></div>
+        </article>
+        <article class="movie-card" data-title="The Menu" data-genre="Thriller" data-year="2022" data-video="">
+          <button class="poster poster-menu" data-open-movie aria-label="Open The Menu movie details"><span class="poster-shade"></span><span class="poster-tag">THRILLER</span><span class="poster-art menu-art"><i></i><b></b></span><span class="poster-title">THE<br>MENU</span><span class="poster-bottom">A NIGHT TO DIE FOR</span><span class="poster-play">▶</span></button>
+          <div class="movie-meta"><div><h3>The Menu</h3><p>2022 <span>•</span> Thriller</p></div><button class="icon-button" data-open-movie aria-label="View The Menu details">↗</button></div>
+        </article>
+        <article class="movie-card" data-title="Drishyam" data-genre="Thriller" data-year="2015" data-video="">
+          <button class="poster poster-drishyam" data-open-movie aria-label="Open Drishyam movie details"><span class="poster-shade"></span><span class="poster-tag">MYSTERY</span><span class="poster-art drishyam-art"><i></i><b></b></span><span class="poster-title">DRISHYAM</span><span class="poster-bottom">THE TRUTH IS BURIED</span><span class="poster-play">▶</span></button>
+          <div class="movie-meta"><div><h3>Drishyam</h3><p>2015 <span>•</span> Thriller</p></div><button class="icon-button" data-open-movie aria-label="View Drishyam details">↗</button></div>
+        </article>
+        <article class="movie-card" data-title="The Beauty Inside" data-genre="Romance" data-year="2005" data-video="">
+          <button class="poster poster-beauty" data-open-movie aria-label="Open The Beauty Inside movie details"><span class="poster-shade"></span><span class="poster-tag">ROMANCE</span><span class="poster-art beauty-art"><i></i><b></b></span><span class="poster-title">THE BEAUTY<br>INSIDE</span><span class="poster-bottom">LOVE LOOKS DIFFERENT EVERY DAY</span><span class="poster-play">▶</span></button>
+          <div class="movie-meta"><div><h3>The Beauty Inside</h3><p>2005 <span>•</span> Romance</p></div><button class="icon-button" data-open-movie aria-label="View The Beauty Inside details">↗</button></div>
+        </article>
+        <article class="movie-card" data-title="Koi... Mil Gaya" data-genre="Sci-Fi" data-year="2003" data-video="">
+          <button class="poster poster-koi" data-open-movie aria-label="Open Koi Mil Gaya movie details"><span class="poster-shade"></span><span class="poster-tag">SCI-FI</span><span class="poster-art koi-art"><i></i><b></b></span><span class="poster-title">KOI...<br>MIL GAYA</span><span class="poster-bottom">A FRIEND FROM ANOTHER WORLD</span><span class="poster-play">▶</span></button>
+          <div class="movie-meta"><div><h3>Koi... Mil Gaya</h3><p>2003 <span>•</span> Sci-Fi</p></div><button class="icon-button" data-open-movie aria-label="View Koi Mil Gaya details">↗</button></div>
+        </article>
+      </div>
+      <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>No stories found</h3><p>Try a different title or choose another genre.</p><button class="button button-ghost" id="resetSearch">Clear filters</button></div>
+      <p class="library-footnote">These are starter examples. Add your own video IDs and movie details in <code>script.js</code> to make each card open your published recap.</p>
+    </section>
+
+    <section class="featured-section">
+      <div class="featured-inner">
+        <div class="featured-copy"><p class="eyebrow"><span class="eyebrow-line"></span> WATCH ON YOUTUBE</p><h2>The story is just<br>one click <em>away.</em></h2><p>Enjoy our Amharic movie recaps on YouTube. Subscribe to discover more stories, endings, and hidden details from films around the world.</p><a class="button button-gold" href="https://www.youtube.com/@jagisofilmochrecapamharic?sub_confirmation=1" target="_blank" rel="noopener">Subscribe to JAGISO ↗</a></div>
+        <a class="youtube-feature" href="https://www.youtube.com/@jagisofilmochrecapamharic" target="_blank" rel="noopener" aria-label="Visit JAGISO on YouTube"><div class="yt-glow"></div><div class="yt-screen"><div class="yt-logo">▶</div><span>JAGISO</span><small>ፊልሞች RECAP</small></div><span class="yt-caption">YOUR NEXT MOVIE NIGHT STARTS HERE</span></a>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-mark"><img src="assets/logo.svg" alt="JAGISO logo"></div>
+      <div class="about-copy"><p class="eyebrow"><span class="eyebrow-line"></span> ABOUT THE CHANNEL</p><h2>Movies connect us.<br><em>Stories stay with us.</em></h2><p>JAGISO ፊልሞች Recap is a home for movie fans who love discovering stories from cinema around the world. Our recaps and explanations are made for Amharic-speaking audiences.</p><p class="about-small">This website is a fan-facing guide to the channel. Films belong to their respective copyright owners; videos are watched through YouTube.</p></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow"><span class="eyebrow-line"></span> STAY IN THE STORY</p><h2>Never miss a <em>recap.</em></h2><p>Follow JAGISO on YouTube for new movie stories and explanations.</p></div>
+      <a class="button button-gold" href="https://www.youtube.com/@jagisofilmochrecapamharic?sub_confirmation=1" target="_blank" rel="noopener">Join the community ↗</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#home">JAGISO <span>ፊልሞች RECAP</span></a><p>Made for movie lovers · Amharic movie recaps</p><div><a href="#home">Back to top ↑</a><span>© <span id="year"></span> JAGISO</span></div></footer>
+
+  <dialog id="movieDialog" class="movie-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close movie details">×</button>
+    <div class="dialog-content">
+      <p class="eyebrow"><span class="eyebrow-line"></span> JAGISO MOVIE LIBRARY</p>
+      <h2 id="dialogTitle">Movie title</h2><p id="dialogMeta" class="dialog-meta"></p>
+      <p id="dialogDescription">Add your own recap description and YouTube video ID in script.js.</p>
+      <div id="videoWrap" class="video-wrap" hidden><iframe id="youtubeFrame" title="YouTube recap video" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <p id="videoHint" class="video-hint">This starter card has no video linked yet. Add your published YouTube video ID to <code>script.js</code>.</p>
+      <a id="dialogYoutubeLink" class="button button-gold" href="https://www.youtube.com/@jagisofilmochrecapamharic" target="_blank" rel="noopener">Find this recap on YouTube ↗</a>
+    </div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
